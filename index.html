@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <style>
+        body{
+            background-color:black;
+            margin:0;
+            padding:0;
+            height:100vh;
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);
+            color:green;
+            
+        }
+        .container{
+            grid-column: 2/3;
+            grid-row:2/3;
+            background-color: orangered;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            padding:10px;
+            margin:0;
+        }
+        .clock{
+            display:flex;
+            height:90%;
+            width:90%;
+            color:red;
+            background-color:black;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            font-size: 8vh;
+            padding:10px;
+            margin:0;
+        }
+    
+
+    </style>
+</head>         
+<body>
+   
+    <div class="container">
+        <div class="clock">
+          
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
